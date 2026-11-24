@@ -1,0 +1,15 @@
+# the organisers' dataset and Python package are not redistributed
+riverload-data/
+riverload-data.zip
+*.parquet
+*.npy
+# competition predictions
+submission*.csv
+# cached intermediates
+experiments/
+cache/
+*.pt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
